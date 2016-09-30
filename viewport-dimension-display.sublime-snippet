@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-function viewportSizeCalc() {
+${1:function viewportSizeCalc() {
     'use strict';
 
     var dom = document.createElement("div"),
@@ -9,12 +9,12 @@ function viewportSizeCalc() {
     dom.style.cssText = "position: fixed; top: 0; left: 0; bottom: 0; right: 0;";
     document.documentElement.insertBefore(dom, document.documentElement.firstChild);
 
-    dims = {width: dom.offsetWidth, height: dom.offsetHeight};
+    dims = {width: dom.offsetWidth, height: dom.offsetHeight\};
     document.documentElement.removeChild(dom);
 
     return dims;
 
-}
+\}
 
 \$(function () {
     'use strict';
@@ -31,13 +31,14 @@ function viewportSizeCalc() {
 			'height': '2em',
 			'line-height': '2',
 			'min-width': '100px',
+			'padding': '0 0.5em',
 			'position': 'fixed',
 			'top': '10px',
       'right': '10px',
 			'text-align': 'center',
 			'background-color': 'rgba(255,255,255,.75)',
 			'z-index': '999999999'
-		}).attr('id','viewport');
+		\}).attr('id','viewport');
 
 		frag.appendChild(vw_display); // append element to fragment
 		\$('body').append(frag); // append fragment to body
@@ -46,10 +47,8 @@ function viewportSizeCalc() {
 
     wnd.on("load resize", function () {
         viewport.text(viewportSizeCalc().width + " | " + viewportSizeCalc().height);
-    });
-});
-
-
+    \});
+\});}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>vw</tabTrigger>

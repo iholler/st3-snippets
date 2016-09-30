@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[@media screen and (max-width: \$screen-sm-max) { ${1:...} }]]></content>
+	<tabTrigger>media-max-sm</tabTrigger>
+	<scope>source.scss,source.css</scope>
+</snippet>

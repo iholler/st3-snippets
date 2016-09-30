@@ -2,9 +2,6 @@
 	<content><![CDATA[
 cmd /c mklink /J "\$env:${1:APPDATA/Sublime Text 3/Packages${2:/User/Snippets}}" (convert-path .${2:/User/Snippets})
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>symlink</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
 </snippet>
 

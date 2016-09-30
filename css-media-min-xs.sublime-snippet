@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[@media screen and (min-width: \$screen-xs) { ${1:...} }]]></content>
+	<tabTrigger>media-min-xs</tabTrigger>
+	<scope>source.scss,source.css</scope>
+</snippet>
