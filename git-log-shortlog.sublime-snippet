@@ -1,9 +1,4 @@
 <snippet>
-	<content><![CDATA[
-git shortlog --after="${1:2016-4-26}" --before="${2:2016-4-27}" --author="${3:sking}" --no-merges
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<content><![CDATA[git log --pretty=tformat:"%Cgreen%ai %Creset%m %s" --after="${1:2016-9-14}" --before="${2:2016-10-1}" --author="sking" --no-merges]]></content>
 	<tabTrigger>log</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
 </snippet>
