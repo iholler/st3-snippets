@@ -1,4 +1,0 @@
-<snippet>
-	<content><![CDATA[git log --pretty=tformat:"%Cgreen%ai %Creset%m %s" --after="${1:2016-9-14}" --before="${2:2016-10-1}" --author="sking" --no-merges]]></content>
-	<tabTrigger>log</tabTrigger>
-</snippet>

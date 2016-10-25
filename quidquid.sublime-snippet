@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-git stash-rename stash@{0} ${1:new-stash-name}
+Quidquid latine dictum sit, altum sonatur. - Whatever is said in Latin sounds profound.
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>stash</tabTrigger>
+	<tabTrigger>quidquid</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

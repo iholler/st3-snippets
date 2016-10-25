@@ -1,4 +1,0 @@
-<snippet>
-	<content><![CDATA[git difftool ${1:parent_commit_hash} ${2:child_commit_hash} ${3:path/to/file.php}]]></content>
-	<tabTrigger>git-difftool-commits-on-file</tabTrigger>
-</snippet>
