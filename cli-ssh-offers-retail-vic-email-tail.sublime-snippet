@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
-fc && gulp build --live && gulp ftp --ftp --dev
+ssh vrfcoffers@offers.foodcity.retail.vic.com
+AG85IY6LIT
+tail -f logs/error_log
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>fc--gulp-build-ftp</tabTrigger>
+	<tabTrigger>tail-email</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
